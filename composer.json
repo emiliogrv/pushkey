@@ -1,13 +1,14 @@
 {
 	"name" : "emiliogrv/pushkey",
 	"description" : "",
-	"authors" : [{
+	"authors" : [
+		{
 			"name" : "Emilio Romero",
 			"email" : "emilio.romero1989@gmail.com"
 		}
 	],
 	"keywords" : [
-		"PUSH"
+		"gcm" ,"push", "notification", "laravel"
 	],
 	"homepage" : "https://github.com/emiliogrv/pushkey",
 	"license" : [
@@ -18,7 +19,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Emiliogrv\\" : ""
+			"Emiliogrv\\" : "/emiliogrv"
 		}
 	},
 	"support" : {
