@@ -1,2 +1,2 @@
 # pushkey
-Class function for Push with PushPlugin.js
+Class function Push with PushPlugin.js for Phonegap
