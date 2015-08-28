@@ -1,2 +1,2 @@
 # pushkey
-Class function for Push with PushPlugin
+Class function for Push with PushPlugin.js
