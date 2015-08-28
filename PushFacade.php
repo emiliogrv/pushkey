@@ -14,8 +14,4 @@ class PushFacade extends Facade {
 	 */
 	protected static function getFacadeAccessor() { return 'pushkey'; }
 
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 51c0c3d477a8ad6b13d269150e7d7ca8419cdab3
+ }

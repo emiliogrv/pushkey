@@ -1,0 +1,30 @@
+{
+	"name" : "emiliogrv/PushKey",
+	"description" : "",
+	"authors" : [{
+			"name" : "Emilio Romero",
+			"email" : "emilio.romero1989@gmail.com"
+		}
+	],
+	"keywords" : [
+		"PUSH"
+	],
+	"homepage" : "https://github.com/emiliogrv/pushkey",
+	"license" : [
+		"MIT"
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+    "require-dev" : {
+    },
+	"autoload" : {
+		"psr-4" : {
+			"Emiliogrv\\" : "/emiliogrv"
+		}
+	},
+	"support" : {
+		"source" : "https://github.com/emiliogrv/pushkey",
+		"issues" : "https://github.com/emiliogrv/pushkey/issues"
+	}
+}
