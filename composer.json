@@ -24,6 +24,6 @@
 	"support" : {
 		"source" : "https://github.com/emiliogrv/pushkey",
 		"issues" : "https://github.com/emiliogrv/pushkey/issues"
-	}
+	},
 	"minimum-stability": "stable"
 }
