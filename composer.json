@@ -19,7 +19,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Emiliogrv\\PushKey\\" : "/emiliogrv/pushkey"
+			"Emiliogrv\\PushKey\\" : ""
 		}
 	},
 	"support" : {
