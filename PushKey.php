@@ -14,6 +14,7 @@ class PushKey {
 							'title'    => $title,
 							'msgcnt'   => $msgcnt,
 							'priority' => $priority,
+							//'soundname'    => "sound/notification.mp3",
 							)
 	        );
     	}
@@ -25,6 +26,7 @@ class PushKey {
 							'title'    => $title,
 							'msgcnt'   => $msgcnt,
 							'priority' => $priority,
+							//'soundname'    => "sound/notification.mp3",
 							)
 	        );
         }
