@@ -1,30 +1,47 @@
 {
-	"name" : "emiliogrv/pushkey",
-	"description" : "",
-	"authors" : [
-		{
-			"name" : "Emilio Romero",
-			"email" : "emilio.romero1989@gmail.com"
-		}
-	],
-	"keywords" : [
-		"gcm" ,"push", "notification", "laravel"
-	],
-	"homepage" : "https://github.com/emiliogrv/pushkey",
-	"license" : [
-		"MIT"
-	],
-	"require" : {
-	        "php": ">=5.4.0"
-	},
-	"autoload" : {
-		"psr-4" : {
-			"Emiliogrv\\PushKey\\" : ""
-		}
-	},
-	"support" : {
-		"source" : "https://github.com/emiliogrv/pushkey",
-		"issues" : "https://github.com/emiliogrv/pushkey/issues"
-	},
-	"minimum-stability": "dev"
+    "name": "emiliogrv/pushkey",
+    "description": "",
+    "authors": [
+        {
+            "name": "Emilio Romero",
+            "email": "emilio.romero1989@gmail.com"
+        }
+    ],
+    "keywords": [
+        "gcm",
+        "push",
+        "notification",
+        "laravel"
+    ],
+    "homepage": "https://github.com/emiliogrv/pushkey",
+    "license": [
+        "MIT"
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Emiliogrv\\Pushkey\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.0"
+        },
+        "laravel": {
+            "providers": [
+                "Emiliogrv\\Pushkey\\PushkeyServiceProvider"
+            ],
+            "aliases": {
+                "Pushkey": "Emiliogrv\\Pushkey\\Facades\\Pushkey"
+            }
+        }
+    },
+    "support": {
+        "source": "https://github.com/emiliogrv/pushkey",
+        "issues": "https://github.com/emiliogrv/pushkey/issues"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
